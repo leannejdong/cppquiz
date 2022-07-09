@@ -22,7 +22,7 @@ public:
               if(map[s[i]]!=t[i])
                 return false;
             }
-            // If c1 encountered for first time and has not been mapped yet
+            // If s[i] encountered for first time and has not been mapped yet
             else{
               // return false if t[i] already mapped to some other char in s[i]
               if(set.find(s[i])==set.end()){
