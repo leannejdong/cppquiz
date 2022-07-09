@@ -18,7 +18,7 @@ public:
         //to store first occurence of each character and its corresponding character in other string 
         for(size_t i = 0; i < t.size(); ++i){
             if(map.find(t[i])!=map.end()){
-              // Return false if 1st occurence of c1 is mapped to a different character.
+              // Return false if 1st occurence of s[i] is mapped to a different character.
               if(map[s[i]]!=t[i])
                 return false;
             }
