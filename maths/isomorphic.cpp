@@ -44,4 +44,4 @@ int main()
   Solution sol1;
   assert(sol1.isIsomorphic(s1, s2) == 0);
 }
-
+// https://godbolt.org/z/bhj3znd3x
